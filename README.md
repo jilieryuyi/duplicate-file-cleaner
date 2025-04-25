@@ -23,3 +23,6 @@ Duplicate File Cleaner-是一个简洁、简单、轻量的文档查重，文件
 ![教程](images/1.png) 
 ![教程](images/2.png)
 ![教程](images/3.png) 
+
+## 联系作者
+微信: yuyi297341015
