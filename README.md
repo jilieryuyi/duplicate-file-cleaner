@@ -14,7 +14,7 @@ Duplicate File Cleaner-是一个简洁、简单、轻量的文档查重，文件
 
 ## 3. 使用教程
 - 点击如下连接下载，下载后双击exe文件即可完成自动安装
-- [Duplicate File Cleaner-1.0.0-win32-x64.exe](https://github.com/jilieryuyi/duplicate-file-cleaner/releases/download/v1.0.1/Duplicate.File.Cleaner-1.0.1-win32-x64.exe)
+- [Duplicate File Cleaner-1.0.0-win32-x64.exe](https://github.com/jilieryuyi/duplicate-file-cleaner/releases/download/v1.0.3/Duplicate-File-Cleaner-1.0.3-win32-x64.exe)
 - 选择目录，点击开始扫描，即可开始扫描，会显示当前扫描目录的文件数，重复文件数以及扫描进度，点击停止即可停止扫描，点击查看即可查询重复文件列表
 - 点击一键清理即可全自动清理重复文件到回收站
 - 搜索2即查看存在重复文件的文件，点击查看即可查看重复文件列表
