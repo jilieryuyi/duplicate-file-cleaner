@@ -1,50 +1,57 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Duplicate File Cleaner</title>
-      <script>
-          (function(w, d, s, q, i) {
-              w[q] = w[q] || [];
-              var f = d.getElementsByTagName(s)[0],j = d.createElement(s);
-              j.async = true;
-              j.id = 'beacon-aplus';
-              j.src = 'https://d.alicdn.com/alilog/mlog/aplus/' + i + '.js';
-              f.parentNode.insertBefore(j, f);
-          })(window, document, 'script', 'aplus_queue', '203467608');
-          //集成应用的appKey
-          aplus_queue.push({
-              action: 'aplus.setMetaInfo',
-              arguments: ['appKey', '67fd972979267e0210391a27']
-          });
-          /************************以下内容为可选配置内容****************************/
-//sdk提供手动pv发送机制，启用手动pv(即关闭自动pv)，需设置aplus-waiting=MAN;
-//注意：由于单页面路由改变时不会刷新页面，无法自动发送pv，所以对于单页应用，强烈建议您关闭自动PV, 手动控制PV事件
-          aplus_queue.push({
-              action: 'aplus.setMetaInfo',
-              arguments: ['aplus-waiting', 'MAN']
-          });
-          //是否开启调试模式
-          aplus_queue.push({
-              action: 'aplus.setMetaInfo',
-              arguments: ['DEBUG', true]
-          });
-          //是否指定用作计算umid的id类型，默认为cnaid，目前支持:
-          //1. 微信和QQ: openid; 字节和百度 anonymousid; 支付宝 alipay_id
-          //2. 微信、QQ、字节、百度平台的 unionid
-          //3. 业务方自己生成的随机id uuid
-          aplus_queue.push({
-              action: 'aplus.setMetaInfo',
-              arguments: ['aplus-idtype', 'cnaid'] //取值参考见附表1
-          });
-          /******************************************************************/
+    <title>简洁、简单、轻量的文档查重，文件查重工具</title>
+</head>
+<body>
+<div style="display: flex;">
+    <div style="flex: 3;">
+<h1>简洁、简单、轻量的文档查重，文件查重工具</h1>
+<h2>1. 简介</h2>
+<p>Duplicate File Cleaner-是一个简洁、简单、轻量的文档查重，文件查重工具。它可以帮助用户快速查找和删除重复的文件和文档，提高工作效率。</p>
+<h2 id="2-">2. 特性</h2>
+<ul>
+    <li>不限文件格式，包括文本、PDF、Word、图片等等</li>
+    <li>支持多种查重算法，包括哈希算法、内容比对等</li>
+    <li>支持百万级别的文件查重，整盘查重，速度快，效率高，性能卓越</li>
+    <li>支持实时的可视化文件扫描交互</li>
+    <li>支持文件对比diff查看</li>
+    <li>支持一键清理重复文件到回收站</li>
+    <li>支持文件预览</li>
+    <li>支持文件大小，文件修改时间、文件创建时间、文件重复数排序</li>
+    <li>支持目录、文件名、文件扩展、文件内容搜索</li>
+    <li>文件内容搜索支持的格式：docx、dotx、pptx、pptm、ppsm、potx、potm、xlsx、xltm、xltx、xlsm、xlam、rtf、xls、doc、pdf、csv、txt、text、py、html、htm、go、java、js、json、xml、yaml、yml、sql、css、md</li>
+    <li>不收集任何用户隐私数据，所有操作均本地完成</li>
+    <li>支持ocr提取图片文本搜索</li>
+</ul>
+<h2 id="3-">3. 使用教程</h2>
+<ul>
+    <li>点击如下连接下载，下载后双击exe文件即可完成自动安装</li>
+    <li><a target="_blank" href="https://github.com/jilieryuyi/duplicate-file-cleaner/releases/download/v1.0.4/Duplicate-File-Cleaner-1.0.4-win32-x64.exe">Duplicate File Cleaner-1.0.4-win32-x64.exe</a></li>
+    <li>选择目录，点击开始扫描，即可开始扫描，会显示当前扫描目录的文件数，重复文件数以及扫描进度，点击停止即可停止扫描，点击查看即可查询重复文件列表</li>
+    <li>点击一键清理即可全自动清理重复文件到回收站</li>
+    <li>搜索2即查看存在重复文件的文件，点击查看即可查看重复文件列表</li>
+    <li>默认选中2个文件进行diff对比，弹窗最下方显示对比结果，支持字符串对比，hex对比以及图片方式直接预览</li>
+    <li>点击移到回收站即可将选中的文件移到回收站</li>
+</ul>
 
-      </script>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<div><img style="max-width: 60%;" src="images/1.png" alt="教程"></div>
+<div><img style="max-width: 60%;" src="images/2.png" alt="教程"></div>
+<div><img style="max-width: 60%;" src="images/3.png" alt="教程"> </div>
+<h2>联系作者</h2>
+<ul>
+    <li>微信：yuyi297341015</li>
+</ul>
+    </div>
+    <div style="flex: 1;">
+        <div style="display:block; width:100%; height:300px; border:1px solid #ccc;">
+            广告位：微信联系 yuyi297341015
+        </div>
+        <div style="display:block; width:100%; height:300px; border:1px solid #ccc;">
+            广告位：微信联系 yuyi297341015
+        </div>
+    </div>
+</div>
+</body>
 </html>
